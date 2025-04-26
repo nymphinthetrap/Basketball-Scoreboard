@@ -2,6 +2,7 @@ let homeScoreEl =document.getElementById("home-score")
 let homeScore = 0
 
 function increaseHomeScoreOne(){
+    console.log('hello')
     homeScore += 1
     homeScoreEl.textContent = homeScore
 }
