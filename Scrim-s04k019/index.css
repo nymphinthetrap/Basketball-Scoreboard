@@ -1,0 +1,73 @@
+
+
+body {
+    margin: 0;
+    font-family: Verdana;
+    color: white;
+    background-color: #1B244A;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.home-score {
+    background: #080001;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    font-size: 50px;
+    color: #F94F6D;
+    text-align: center;
+    
+
+}
+
+.guest-score {
+    background: #080001;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    font-size: 50px;
+    color: #F94F6D;
+    text-align: center;
+}
+
+#home-buttons,#guest-buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+#home-buttons button, #guest-buttons button {
+    background-color: #1B244A; 
+    color: #9AABD8;;
+    border:1px solid #9AABD8;
+    border-radius: 10%;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    padding: 8px;
+    }
+
+
+
+.home-team, .guest-team {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+}
+
+
+.home-team h3, .guest-team h3 {
+    margin-bottom: 5px; /* Reduce the space below the heading */
+}
+
+.home-team h2, .guest-team h2 {
+    margin-top: 5px; /* Reduce the space above the score */
+}
